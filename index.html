@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no'
+    name='viewport' />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Happy Eid Mubarak</title>
+  <meta name="description" content="Happy Eid Mubarak">
+  <meta property="og:title" content="Happy Eid Mubarak" />
+  <meta property="og:description" content="Happy Eid Mubarak">
+  <!-- <meta property="og:image" content="https://telegra.ph/file/7e01f2239ea4cd2dd28a3.png"> -->
+  <link rel="shortcut icon" type="image/x-icon" href="img/Card-Logo.png">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="le.css">
+  <style>
+    button {
+      outline: none;
+      border: none;
+      font-size: 18px;
+      text-transform: uppercase;
+      margin: auto;
+      cursor: pointer;
+      letter-spacing: 2px;
+      color: #fff;
+    }
+
+    .group {
+      width: 100%;
+      display: grid;
+      gap: 50px;
+      grid-template-columns: repeat(auto-fill, 300px);
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 4rem;
+      text-align: center;
+    }
+
+    /* Modern Hover Effect */
+
+    .autofill-btn {
+      display: block;
+      position: relative;
+      padding: 0.5em 2.2em;
+      font-size: 25px;
+      background: transparent;
+      cursor: pointer;
+      user-select: none;
+      overflow: hidden;
+    }
+
+    .autofill-btn span {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: transparent;
+      z-index: -1;
+      border: 5px solid #62c529;
+      text-align: center;
+    }
+
+    .autofill-btn span::before {
+      content: "";
+      position: absolute;
+      width: 8%;
+      height: 500%;
+      background: rgb(255, 255, 255);
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) rotate(-60deg);
+      transition: all 0.5s linear;
+    }
+
+    .autofill-btn:hover span::before {
+      transform: translate(-50%, -50%) rotate(-90deg);
+      width: 100%;
+      background: #62c529;
+    }
+
+    .alone {
+      line-height: 85px;
+      color: #fff;
+      font-size: 30px;
+      font-weight: 700;
+      font-family: 'Lato', sans-serif;
+      letter-spacing: 1px;
+      background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: animate 1.5s linear infinite;
+    }
+
+    @keyframes animate {
+      100% {
+        filter: hue-rotate(360deg);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="butn">
+    <button>
+      <span></span>
+    </button>
+  </div>
+  <!-- <audio autoplay="autoplay" hidden="hidden" src="https://ichikaa.xyz/file/fhA6h7n70KrHDuFItJzq.mp4"></audio>
+  <audio id="Audio">
+    <source src="https://ichikaa.xyz/file/fhA6h7n70KrHDuFItJzq.mp4" type="audio/ogg">
+    <source src="https://ichikaa.xyz/file/fhA6h7n70KrHDuFItJzq.mp4" type="audio/mpeg">
+  </audio> -->
+
+
+  <!-- partial:index.partial.html -->
+  <div class="wrapper">
+    <div class="inner">
+    </div>
+    <h2>Happy Eid Mubaarok✨<span id="jam">Loading...</span></h2>
+    <p>
+      <br>Rodhi dan Khaila minta maaf kalau ada salah yaa 🙏🏻
+      <br>Taqobbalallahu Minna Waminkum
+      <br>Open pemberian THR via QRIS 😅
+      <br>
+      <a target="_blank" href="https://i.ibb.co/p3PVW9M/DANA-BISNIS-QRIS.png" style="color:rgb(255, 213, 0)">Link</a></p>
+      
+    <br>
+    <br>
+    <div class="sleeve">
+      <br>
+      <h2>Touch Here</h2>
+      <div class="circle"></div>
+      <img src="img/Card-Logo.png" class="dsa">
+      <h2 class="gsas">2023</h2>
+    </div>
+  </div>
+
+  <!-- partial -->
+  <script>
+    setInterval(() => {
+      var jamna = new Date().toLocaleTimeString('en-US', { timeZone: "Asia/Jakarta" });
+      document.getElementById("jam").innerHTML = jamna
+    }, 1000);  
+  </script>
+
+  <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a
+      href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+  <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a
+      href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+  <div>Icons made by <a href="https://www.flaticon.com/authors/bzzrincantation"
+      title="BZZRINCANTATION">BZZRINCANTATION</a> from <a href="https://www.flaticon.com/"
+      title="Flaticon">www.flaticon.com</a></div> -->
+</body>
+
+</html>
