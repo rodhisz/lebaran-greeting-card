@@ -101,7 +101,7 @@ body .payment {
 
 body .wrapper p {
   padding-left: 23px;
-  margin-top: -15px;
+  margin-top: -30px;
   line-height: 1.5;
   position: relative;
 }
@@ -112,7 +112,7 @@ body .wrapper p:after {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  bottom: -15px;
+  bottom: -25px;
   border-bottom: 1px dashed lightseagreen;
 }
 
